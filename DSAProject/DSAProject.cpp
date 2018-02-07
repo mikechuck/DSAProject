@@ -17,7 +17,7 @@
 
 int main()
 {
-	//runBitOpertations();
+	runBitOpertations();
 	runColorBitOperations(Constants::ten, Constants::five);
 
 	//std::cout << "(main) internalVariable:\t" << internalVariable << "\n";
