@@ -8,4 +8,9 @@ namespace Constants
 	extern const int five;
 }
 
+namespace Functions
+{
+	extern void print(int x);
+}
+
 #endif

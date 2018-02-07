@@ -30,7 +30,10 @@
     <ClInclude Include="bitOperations.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="CustomConstants.h">
+    <ClInclude Include="Namespaces.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVariables.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -44,10 +47,13 @@
     <ClCompile Include="IntCell.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CustomConstants.cpp">
+    <ClCompile Include="bitOperations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bitOperations.cpp">
+    <ClCompile Include="Namespaces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVariables.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

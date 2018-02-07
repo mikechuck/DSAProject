@@ -139,14 +139,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bitOperations.h" />
-    <ClInclude Include="CustomConstants.h" />
+    <ClInclude Include="GlobalVariables.h" />
+    <ClInclude Include="Namespaces.h" />
     <ClInclude Include="IntCell.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bitOperations.cpp" />
-    <ClCompile Include="CustomConstants.cpp" />
+    <ClCompile Include="GlobalVariables.cpp" />
+    <ClCompile Include="Namespaces.cpp" />
     <ClCompile Include="DSAProject.cpp" />
     <ClCompile Include="IntCell.cpp" />
     <ClCompile Include="stdafx.cpp">

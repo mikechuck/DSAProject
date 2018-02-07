@@ -2,9 +2,6 @@
 #include <iostream>
 #include <bitset>
 
-static int internalVariable(1);
-extern int externalVariable(2);
-
 void runBitOpertations()
 {
 	const unsigned char isHungry = 1 << 0;
@@ -47,9 +44,6 @@ void runBitOpertations()
 
 	bits.reset(1);
 	std::cout << "bits: " << bits << "\n";
-
-	std::cout << "internalVariable:\t" << internalVariable << "\n";
-	std::cout << "externalVariable:\t" << externalVariable << "\n";
 }
 
 void runColorBitOperations(int ten, int five) 
@@ -71,7 +65,4 @@ void runColorBitOperations(int ten, int five)
 	unsigned char red = (pixel & redBits) >> 24;
 	
 	std::cout << "the red bits are:\t\t" << std::bitset<8>(red) << "\n";
-
-	std::cout << "internalVariable:\t" << internalVariable << "\n";
-	std::cout << "externalVariable:\t" << externalVariable << "\n";
 }

@@ -5,6 +5,4 @@
 void runBitOpertations();
 void runColorBitOperations(int ten, int five);
 
-extern int externalVariable;
-
 #endif
