@@ -9,7 +9,7 @@
 
 //Headers
 #include "IntCell.h"
-#include "bitOperations.h"
+#include "BitOperations.h"
 
 //Global Variables
 #include "GlobalVariables.h"
