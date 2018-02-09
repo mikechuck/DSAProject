@@ -25,6 +25,9 @@
     <Filter Include="Source Files\TypeCoercion">
       <UniqueIdentifier>{3e09c10a-d66a-4c3d-b57e-2456b4ac094b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\StringLib">
+      <UniqueIdentifier>{29bc2b2e-9185-46b8-b422-48a811acfc14}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -48,6 +51,9 @@
     <ClInclude Include="TypeCoercion.h">
       <Filter>Source Files\TypeCoercion</Filter>
     </ClInclude>
+    <ClInclude Include="StringLib.h">
+      <Filter>Source Files\StringLib</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -67,6 +73,9 @@
     </ClCompile>
     <ClCompile Include="TypeCoercion.cpp">
       <Filter>Source Files\TypeCoercion</Filter>
+    </ClCompile>
+    <ClCompile Include="StringLib.cpp">
+      <Filter>Source Files\StringLib</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
