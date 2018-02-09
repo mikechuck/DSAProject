@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\BitOperations">
+      <UniqueIdentifier>{b8f9a159-4174-4cc9-b67e-84aa33a5d678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GlobalVariables">
+      <UniqueIdentifier>{2883a9cd-eddc-4c5d-ba14-389f5cfa6b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Namespaces">
+      <UniqueIdentifier>{6d2bfa23-1152-4612-a1b2-ded1c3d9821f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TypeCoercion">
+      <UniqueIdentifier>{3e09c10a-d66a-4c3d-b57e-2456b4ac094b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,17 +36,17 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="IntCell.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Namespaces.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="BitOperations.h">
+      <Filter>Source Files\BitOperations</Filter>
     </ClInclude>
     <ClInclude Include="GlobalVariables.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\GlobalVariables</Filter>
     </ClInclude>
-    <ClInclude Include="BitOperations.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="Namespaces.h">
+      <Filter>Source Files\Namespaces</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeCoercion.h">
+      <Filter>Source Files\TypeCoercion</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -44,17 +56,17 @@
     <ClCompile Include="DSAProject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="IntCell.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Namespaces.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="BitOperations.cpp">
+      <Filter>Source Files\BitOperations</Filter>
     </ClCompile>
     <ClCompile Include="GlobalVariables.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\GlobalVariables</Filter>
     </ClCompile>
-    <ClCompile Include="BitOperations.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Namespaces.cpp">
+      <Filter>Source Files\Namespaces</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeCoercion.cpp">
+      <Filter>Source Files\TypeCoercion</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

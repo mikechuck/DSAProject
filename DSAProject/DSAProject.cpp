@@ -8,8 +8,8 @@
 #include <bitset>
 
 //Headers
-#include "IntCell.h"
 #include "BitOperations.h"
+#include "TypeCoercion.h"
 
 //Global Variables
 #include "GlobalVariables.h"
@@ -26,7 +26,7 @@ int main()
 
 	std::cout << "\n------------------------------------\n\n";
 
-	//Printing external global variable fomr GlobalVariables
+	//Printing external global variable from GlobalVariables
 	std::cout << "(main) externalVariable:\t" << externalVariable << "\n";
 	//Printing internal and external global variables in GlobalVariables
 	printVariables();
@@ -35,6 +35,9 @@ int main()
 	
 	//Using the Functions namespace from Namespaces
 	Functions::print(int(5));
+
+	//running runTypeCoercion from TypeCoercion
+	runTypeCoercion();
 
     return 0;
 }

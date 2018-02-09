@@ -10,5 +10,5 @@ extern int externalVariable(2);
 void printVariables()
 {
 	std::cout << "internalVariable:\t" << internalVariable << "\n";
-	std::cout << "externalVariable:\t" << externalVariable << "\n";
+	std::cout << "externalVariable:\t" << externalVariable << "hello\n";
 }
