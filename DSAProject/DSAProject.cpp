@@ -15,13 +15,16 @@
 //Global Variables
 #include "GlobalVariables.h"
 
+//Enumerators
+#include "Enums.h"
+
 //Namespaces
 #include "Namespaces.h"
 
 
 int main()
 {
-	runStringLib();
+	runEnums();
 
     return 0;
 }

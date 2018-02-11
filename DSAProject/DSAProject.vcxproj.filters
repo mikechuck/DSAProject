@@ -28,6 +28,9 @@
     <Filter Include="Source Files\StringLib">
       <UniqueIdentifier>{29bc2b2e-9185-46b8-b422-48a811acfc14}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Enums">
+      <UniqueIdentifier>{3398d3b8-62b7-41d8-84c1-778763e9534a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -54,6 +57,9 @@
     <ClInclude Include="StringLib.h">
       <Filter>Source Files\StringLib</Filter>
     </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Source Files\Enums</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -76,6 +82,9 @@
     </ClCompile>
     <ClCompile Include="StringLib.cpp">
       <Filter>Source Files\StringLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Enums.cpp">
+      <Filter>Source Files\Enums</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
