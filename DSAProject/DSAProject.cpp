@@ -11,6 +11,7 @@
 #include "BitOperations.h"
 #include "TypeCoercion.h"
 #include "StringLib.h"
+#include "Enums.h"
 
 //Global Variables
 #include "GlobalVariables.h"
@@ -24,7 +25,11 @@
 
 int main()
 {
-	runEnums();
+
+	ItemType itemType(ITEMTYPE_SWORD);
+
+	std::cout << "Your are carrying a " << getItemType(itemType) << "\n";
+
 
     return 0;
 }
