@@ -12,6 +12,7 @@
 #include "TypeCoercion.h"
 #include "StringLib.h"
 #include "Enums.h"
+#include "Structs.h"
 
 //Global Variables
 #include "GlobalVariables.h"
@@ -26,9 +27,7 @@
 int main()
 {
 
-	ItemType itemType(ItemType::SWORD);
-
-	std::cout << "Your are carrying a " << getItemType(itemType) << "\n";
+	runStructs();
 
 
     return 0;

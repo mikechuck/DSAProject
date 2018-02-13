@@ -31,6 +31,9 @@
     <Filter Include="Source Files\Enums">
       <UniqueIdentifier>{3398d3b8-62b7-41d8-84c1-778763e9534a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Structs">
+      <UniqueIdentifier>{113fc167-51c1-4af0-b9e6-3420d7947365}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -60,6 +63,9 @@
     <ClInclude Include="Enums.h">
       <Filter>Source Files\Enums</Filter>
     </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Source Files\Structs</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -85,6 +91,9 @@
     </ClCompile>
     <ClCompile Include="Enums.cpp">
       <Filter>Source Files\Enums</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs.cpp">
+      <Filter>Source Files\Structs</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
