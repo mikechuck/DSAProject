@@ -4,10 +4,10 @@
 
 void runEnums();
 
-enum ItemType {
-	ITEMTYPE_SWORD,
-	ITEMTYPE_TORCH,
-	ITEMTYPE_POTION
+enum class ItemType {
+	SWORD,
+	TORCH,
+	POTION
 };
 
 std::string getItemType(ItemType itemType);

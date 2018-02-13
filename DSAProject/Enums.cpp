@@ -1,18 +1,18 @@
 #include "stdafx.h"
 #include <iostream>
 
-enum Color {
-	COLOR_BLACK,
-	COLOR_BLUE,
-	COLOR_RED,
-	COLOR_YELLOW,
+enum class Color {
+	BLACK,
+	BLUE,
+	RED,
+	YELLOW,
 };
 
-enum ItemType
+enum class ItemType
 {
-	ITEMTYPE_SWORD,
-	ITEMTYPE_TORCH,
-	ITEMTYPE_POTION
+	SWORD,
+	TORCH,
+	POTION
 };
 
 void runEnums()
@@ -27,16 +27,16 @@ void runEnums()
 
 	switch (color)
 	{
-	case COLOR_BLACK:
+	case Color::BLACK:
 		std::cout << "Black\n";
 		break;
-	case COLOR_BLUE:
+	case Color::BLUE:
 		std::cout << "Blue\n";
 		break;
-	case COLOR_RED:
+	case Color::RED:
 		std::cout << "Red\n";
 		break;
-	case COLOR_YELLOW:
+	case Color::YELLOW:
 		std::cout << "Yellow\n";
 		break;
 	}
@@ -47,11 +47,11 @@ std::string getItemType(ItemType itemType)
 
 	switch (itemType)
 	{
-	case ITEMTYPE_SWORD:
+	case ItemType::SWORD:
 		return std::string("Sword");
-	case ITEMTYPE_TORCH:
+	case ItemType::TORCH:
 		return std::string("Torch");
-	case ITEMTYPE_POTION:
+	case ItemType::POTION:
 		return std::string("Potion");
 	default:
 		return std::string("Unknown Item");

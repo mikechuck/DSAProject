@@ -26,7 +26,7 @@
 int main()
 {
 
-	ItemType itemType(ITEMTYPE_SWORD);
+	ItemType itemType(ItemType::SWORD);
 
 	std::cout << "Your are carrying a " << getItemType(itemType) << "\n";
 
